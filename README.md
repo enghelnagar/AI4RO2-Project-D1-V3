@@ -131,22 +131,22 @@ A highly complex scenario involving a branched crater network. Two samples are l
 
 Validates the fundamental continuous processes (distance depletion and risk accumulation) in a simple single-agent scenario. Total elapsed time: **10.0 units**.
 
-![PDDL+ Problem 1 Output](q2p1.png)
+![PDDL+ Problem 1 Output](outputs/q2p1.png)
 
 #### Problem 2: Proactive Risk Mitigation via Mandatory Resting
 
 Forces the planner to autonomously reason about numeric risk thresholds and utilize the safe_island intermediate node to avoid system failure. Total elapsed time: **77.0 units**.
 
-![PDDL+ Problem 2 Output](q2p2.png)
+![PDDL+ Problem 2 Output](outputs/q2p2.png)
 
 #### Problem 3: Time-Critical Heterogeneous Cooperation
 
 Demands asynchronous multi-agent cooperation enforced by spatial and terrain constraints, featuring the highway terrain accessible only to the wheeled rover. Total elapsed time: **146.0 units**.
 
-![PDDL+ Problem 3 Output](q2p3.png)
+![PDDL+ Problem 3 Output](outputs/q2p3.png)
 
 #### Problem 4: Scaled Multi-Agent Optimization
 
 A comprehensive benchmark requiring the concurrent scheduling of two rovers handling multiple targets across complex topology. Total elapsed time: **108.0 units**.
 
-![PDDL+ Problem 4 Output](q2p4.png)
+![PDDL+ Problem 4 Output](outputs/q2p4.png)
