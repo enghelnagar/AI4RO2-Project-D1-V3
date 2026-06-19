@@ -66,6 +66,7 @@ A fundamental sequential planning test where a single wheeled rover must retriev
 3. (navigate wheeled_rover loc_1 base flat)
 4. (deliver-sample wheeled_rover sample_a base)
 ```
+![PDDL Problem 1 Output](Report/outputs/q1p1.png)
 
 #### Problem 2: Single Robot, Multiple Samples
 
@@ -83,6 +84,7 @@ An extension of the first problem, requiring the wheeled rover to retrieve two d
 9. (navigate wheeled_rover loc_1 base flat)
 10. (deliver-sample wheeled_rover sample_b base)
 ```
+![PDDL Problem 2 Output](Report/outputs/q1p2.png)
 
 #### Problem 3: Forced Cooperation via Strict Terrain Constraints
 
@@ -98,6 +100,7 @@ This scenario strictly enforces multi-agent coordination. A sample is located in
 7. (navigate wheeled_rover transfer_zone base flat)
 8. (deliver-sample wheeled_rover sample_alpha base)
 ```
+![PDDL Problem 3 Output](Report/outputs/q1p3.png)
 
 #### Problem 4: Advanced Coordination with Complex Topology
 
@@ -124,6 +127,7 @@ A highly complex scenario involving a branched crater network. Two samples are l
 ```
 
 ---
+![PDDL Problem 4 Output](Report/outputs/q1p4-2.png)
 
 ### Phase 2: PDDL+ Hybrid Dynamical System
 
